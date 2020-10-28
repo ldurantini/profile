@@ -1,0 +1,81 @@
+body {
+  background-color: #dccfc4;
+  font-family: 'Lato';
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Henny Penny', cursive, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: #6c0e23;
+}
+
+h2 {
+  color: #0b3954;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+a {
+  color: #087e8b;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #470b1a;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+.card {
+  width: 600px;
+  margin: 10px auto;
+  background-color: #e2d9d9;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0 5px 10px rgb(240, 220, 220);
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.btn-grey {
+  background-color: #E45E60;
+  border-radius: 5px;
+  padding: 5px 15px;
+  color: white;
+  font-family: "Circular Std";
+}
+
+@media (max-width: 1600px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 1500px;
+  }
+}
+@media (max-width: 768px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 480px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
